@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+
+# Environment variables
+.env
+*.env
+
+# Migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Static files
+staticfiles/
+media/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+.venv/
+env.bak/
+
+# IDEs
+.vscode/
+.idea/
+
+# Pytest
+.cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
